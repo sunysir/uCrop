@@ -37,6 +37,12 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     ```
 
+3.0 The uCrop configuration is created using the builder pattern.
+
+	```java
+    source  Uri.fromFile(new File(imgPath)) destination  Uri.fromFile(App.getDestinationUri())
+    ```
+
 3. The uCrop configuration is created using the builder pattern.
 
 	```java
